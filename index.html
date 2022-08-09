@@ -1,245 +1,609 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="./image/xfavicon.png.pagespeed.ic.6C2XCbExx3.webp" type="image/png">
-    <title>Royal Hotel</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/hover-min.css">
-    <link rel="stylesheet" href="./css/style.css">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="./image/xfavicon.png.pagespeed.ic.6C2XCbExx3.webp" type="image/png" />
+  <title>Royal Hotel</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/hover-min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
-  <body>
-    <header > 
-      <div class="  fixed-top">
-          <nav class="navbar navbar-expand-lg bg-light container 	 ">
-            <div class="container d-flex justify-content-between">
-              
-              <a class=" navbar-brand d-inline-block  logo   " href="#">
-                <img src="./image/royalIcon.webp" alt="logo">
-              </a>
 
+<body>
+  <header>
+    <div class="fixed-top" id="navb">
+      <nav class="navbar navbar-expand-lg bg-light container">
+        <div class="container d-flex justify-content-between">
+          <a class="navbar-brand d-inline-block logo" href="#">
+            <img src="./image/royalIcon.webp" alt="logo" />
+          </a>
 
-              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-                <span class="navbar-toggler-icon "></span>
-                <span class="navbar-toggler-icon "></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-              </button>
-            
-              <div class="collapse navbar-collapse  " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto ">
-                  <li class="nav-item ms-2 ">
-                    <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item me-lg-2 ms-sm-2 ">
-                    <a class="nav-link " href="#">AboutUs</a>
-                  </li>
-                  
-                  <li class="nav-item me-lg-2 ms-sm-2">
-                    <a class="nav-link  " href="">Accomodation</a>
-                  </li>
-                  <li class="nav-item me-lg-2 ms-sm-2" >
-                    <a class="nav-link "href="">Gallery</a>
-                  </li>
-                  <li class="nav-item me-lg-2 ms-sm-2">
-                    <a class="nav-link "href="">Blog</a>
-                  </li>
-                  <li class="nav-item me-lg-2 ms-sm-2">
-                    <a class="nav-link "href="">Elemests</a>
-                  </li>
-                  <li class="nav-item me-lg-2 ms-sm-2">
-                    <a class="nav-link "href="">Contact</a>
-                  </li>
-                  
-                </ul>
-               
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+              <li class="nav-item ms-2">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-lg-2 ms-sm-2">
+                <a class="nav-link" href="#">AboutUs</a>
+              </li>
+
+              <li class="nav-item me-lg-2 ms-sm-2">
+                <a class="nav-link" href="">Accomodation</a>
+              </li>
+              <li class="nav-item me-lg-2 ms-sm-2">
+                <a class="nav-link" href="">Gallery</a>
+              </li>
+              <li class="nav-item me-lg-2 ms-sm-2">
+                <a class="nav-link" href="">Blog</a>
+              </li>
+              <li class="nav-item me-lg-2 ms-sm-2">
+                <a class="nav-link" href="">Elemests</a>
+              </li>
+              <li class="nav-item me-lg-2 ms-sm-2">
+                <a class="nav-link" href="">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="headerbg">
+    <div class="banner-backgrund">
+      <div class="banner_content flex-column">
+        <div
+          class="hedcontetnt d-inline-block h-50 d-flex align-items-center justify-content-center flex-column text-center">
+          <h6>AWAY FROM MONOTONOUS LIFE</h6>
+          <h1>Relax Your Mind</h1>
+          <p>
+            If you are looking at blank cassettes on the web, you may be very
+            confused at the <br />
+            difference in price. You may see some for as low as $.17 each.
+          </p>
+          <a class="btn btn-warning hvr-sweep-to-right" href="">GET STARTED</a>
+        </div>
+
+        <div class="container p-0 h-100">
+          <div class="boking-form container row m-0">
+            <div class="col-lg-3 col-sm-12">
+              <h2>
+                BOOK <br />
+                YOUR ROOM
+              </h2>
+            </div>
+            <div class="col-lg-9 col-sm-12">
+              <form class="row" action="">
+                <input class="col-lg-3" type="date" placeholder="Arrival Date" />
+                <select class="col-lg-3" name="" id="">
+                  <option value="">Adult</option>
+                  <option value="">Younger</option>
+                  <option value="">Old</option>
+                </select>
+                <select class="col-lg-3" name="" id="" class="form-select">
+                  <option value="">child</option>
+                  <option value="">child</option>
+                </select>
+                <input class="col-lg-3" type="date" placeholder="Departure Date" />
+                <select class="col-lg-3" name="" id="">
+                  <option value="">room 01</option>
+                  <option value="">Room 02</option>
+                </select>
+                <a class="col-lg-3 hvr-sweep-to-right"> Book Now</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="place" class="room-section container">
+    <div class="title text-center m-auto">
+      <h1>Hotel Accomodation</h1>
+      <p>
+        We all live in an age that belongs to the young at heart. Life that is
+        becoming extremely fast,
+      </p>
+    </div>
+    <div class="mt-5 mb-5">
+      <div class="row container d-flex justify-content-center align-items-center">
+        <div class="room col-lg-3 col-md-6 col-sm-10">
+          <div class="text-center">
+            <div class="imge-room">
+              <img src="./image/xroom1.jpg.pagespeed.ic.fME_pyPDDw.webp" alt="room 1" />
+              <a class="btn btn-warning hvr-sweep-to-right" href="">Book Now</a>
+            </div>
+            <div class="room-content">
+              <a href="">Double Deluxe Room</a>
+              <h5>$250</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="room col-lg-3 col-md-6 col-sm-10">
+          <div class="text-center">
+            <div class="imge-room">
+              <img src="./image/xroom2.jpg.pagespeed.ic.s5wFtfgyhX.webp" alt="room 1" />
+              <a class="btn btn-warning hvr-sweep-to-right" href="">Book Now</a>
+            </div>
+            <div class="room-content">
+              <a href="">Single Deluxe Room</a>
+              <h5>$200</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="room col-lg-3 col-md-6 col-sm-10">
+          <div class="text-center">
+            <div class="imge-room">
+              <img src="./image/xroom3.jpg.pagespeed.ic.cPDZhB0jct.webp" alt="room 1" />
+              <a class="btn btn-warning hvr-sweep-to-right" href="">Book Now</a>
+            </div>
+            <div class="room-content">
+              <a href="">Honeymoon Suit</a>
+              <h5>$750</h5>
+            </div>
+          </div>
+        </div>
+        <div class="room col-lg-3 col-md-6 col-sm-10">
+          <div class="text-center">
+            <div class="imge-room">
+              <img src="./image/xroom4.jpg.pagespeed.ic.R_29Q0N7Vt (1).webp" alt="room 1" />
+              <a class="btn btn-warning hvr-sweep-to-right" href="">Book Now</a>
+            </div>
+            <div class="room-content">
+              <a href="">Economy Double</a>
+              <h5>$200</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="facilitie pt-3">
+    <div class="title text-center mt-5 text-light">
+      <h1 class="text-light">Royal Facilities</h1>
+      <p>Who are in extremely love with eco friendly system.</p>
+    </div>
+    <div class="mt-5">
+      <div class="row container m-auto">
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="facilitie-div mt-5 text-light p-3">
+            <div class="d-flex">
+              <i class="text-warning m-3 ms-4 icon-size fa-solid fa-utensils"></i>
+              <h3 class="m-3 text-light">Restaurant</h3>
+            </div>
+            <p class="ms-4 me-2">
+              Usage of the Internet is becoming more common due to rapid
+              advancement of technology and power.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="facilitie-div mt-5 text-light p-3">
+            <div class="d-flex">
+              <i class="text-warning m-3 ms-4 icon-size fa-solid fa-person-biking"></i>
+              <h3 class="m-3 text-light">Sports CLub</h3>
+            </div>
+            <p class="ms-4 me-2">
+              Usage of the Internet is becoming more common due to rapid
+              advancement of technology and power.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="facilitie-div mt-5 text-light p-3">
+            <div class="d-flex">
+              <i class="text-warning m-3 ms-4 icon-size fa-solid fa-shirt"></i>
+              <h3 class="m-3 text-light">Swimming Pool</h3>
+            </div>
+            <p class="ms-4 me-2">
+              Usage of the Internet is becoming more common due to rapid
+              advancement of technology and power.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="facilitie-div mt-5 text-light p-3">
+            <div class="d-flex">
+              <i class="text-warning m-3 ms-4 icon-size fa-solid fa-car"></i>
+              <h3 class="m-3 text-light">Rent a Car</h3>
+            </div>
+            <p class="ms-4 me-2">
+              Usage of the Internet is becoming more common due to rapid
+              advancement of technology and power.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="facilitie-div mt-5 text-light p-3">
+            <div class="d-flex">
+              <i class="text-warning m-3 ms-4 icon-size fa-solid fa-toilets-portable"></i>
+              <h3 class="m-3 text-light">Gymnesium</h3>
+            </div>
+            <p class="ms-4 me-2">
+              Usage of the Internet is becoming more common due to rapid
+              advancement of technology and power.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-10">
+          <div class="facilitie-div mt-5 text-light p-3">
+            <div class="d-flex">
+              <i class="text-warning m-3 ms-4 icon-size fa-solid fa-martini-glass-citrus"></i>
+              <h3 class="m-3 text-light">Bar</h3>
+            </div>
+            <p class="ms-4 me-2">
+              Usage of the Internet is becoming more common due to rapid
+              advancement of technology and power.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="about-section container row">
+    <div class="contant-about col-lg-6 col-sm-12 ms-0 me-0">
+      <h2>About Us <br />Our History <br />Mission & Vision</h2>
+      <p>
+        inappropriate behavior is often laughed off as “boys will be boys,”
+        women face higher conduct standards especially in the workplace.
+        That’s why it’s crucial that, as women, our behavior on the job is
+        beyond reproach. inappropriate behavior is often laughed.
+      </p>
+      <a class="der hvr-sweep-to-right mb-4" href="">Request Custom Price</a>
+    </div>
+    <div class="img-fluid imge-about mt-5 ms-0 me-0 col-lg-6 col-sm-12">
+      <img class="img-fluid" src="./image/xabout_bg.jpg.pagespeed.ic.Oo59Fe2YEF.webp" alt="" />
+    </div>
+  </div>
+
+  <section class="testimonial">
+    <div class="title text-center m-auto mb-5">
+      <h1>Testimonial from our Clients</h1>
+      <p>
+        The French Revolution constituted for the conscience of the dominant
+        aristocratic class a fall from.
+      </p>
+    </div>
+
+    <div class="swiper mySwiper container mt-5">
+      <div class="swiper-wrapper d-flex">
+        <div class="swiper-slide col-lg-6 col-sm-12">
+          <div class="bg-light container ms-2 p-4">
+            <div class="testimonial-div d-flex">
+              <img class="rounded-circle" src="./image/girl1.webp" alt="women" />
+              <div>
+                <p>
+                  As conscious traveling Paupers we must always be <br />
+                  concerned about our dear Mother Earth. If you think <br />
+                  about it, you travel across her face, and She is the
+                </p>
+                <a href="">Fanny Spencer</a>
+                <div>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star-half-stroke"></i>
+                </div>
               </div>
             </div>
-          
-          </nav>
+          </div>
         </div>
-    </header>
-    <section class="headerbg">
-      <div class="banner-backgrund">
 
-        <div class="banner_content   flex-column">
-      <div class="hedcontetnt d-inline-block h-50  d-flex align-items-center justify-content-center flex-column text-center" >
-        <h6>AWAY FROM MONOTONOUS LIFE </h6>
-        <h1>Relax Your Mind</h1>
-        <p>If you are looking at blank cassettes on the web, you may be very confused at the <br>
-          difference in price. You may see some for as low as $.17 each.</p>
-        <a class="btn btn-warning hvr-sweep-to-right " href="">GET STARTED</a>
-      </div>
-      
-      <div class="container  p-0 h-100">
-      <div class="boking-form container  row m-0 ">
-        <div class=" col-lg-3 col-sm-12">
-          <h2>BOOK  <br> YOUR  ROOM</h2>
-        </div>
-        <div class="col-lg-9 col-sm-12 ">
-          <form class="row" action="">
-            <input class="col-lg-3" type="date" placeholder="Arrival Date">
-            <select class="col-lg-3" name="" id="">
-              <option value="">Adult</option>
-              <option value="">Younger</option>
-              <option value="">Old</option>
-            </select>
-            <select class="col-lg-3" name="" id="" class="form-select"  >
-              <option value="">child</option>
-              <option value="">child</option>
-            </select>
-            <input class="col-lg-3" type="date" placeholder="Departure Date">
-            <select class="col-lg-3" name="" id="">
-              <option value="">room 01</option>
-              <option value="">Room 02</option>
-            </select>
-            <a class="col-lg-3 hvr-sweep-to-right "> Book Now</a>
-          </form>
-        </div>
-      </div>
-      </div>
-    </div>
-    </div>
-    </section>
-    <section class="room-section ">
-      <div class="title text-center m-auto">
-        <h1>Hotel Accomodation</h1>
-        <p>We all live in an age that belongs to the young at heart.
-           Life that is becoming extremely fast,
-        </p>
-      </div>
-      <div class=" mt-5 mb-5 d-flex justify-content-center align-items-center">
-      <div class="row  container">
-      <div class="room    col-lg-3 col-md-6 col-sm-10  ">
-        <div class="   text-center">
-          <div class=" imge-room ">
-            <img src="./image/xroom1.jpg.pagespeed.ic.fME_pyPDDw.webp" alt="room 1"> 
-            <a class="btn btn-warning hvr-sweep-to-right" href="">Book Now</a>
-          </div>
-          <div class="room-content">
-            <a href="">Double Deluxe Room</a>
-            <h5>$250</h5>
+        <div class="swiper-slide col-lg-5 col-sm-12">
+          <div class="bg-light container ms-2 p-4">
+            <div class="testimonial-div d-flex">
+              <img class="rounded-circle" src="./image/girl1.webp" alt="women" />
+              <div>
+                <p>
+                  As conscious traveling Paupers we must always be <br />
+                  concerned about our dear Mother Earth. If you think <br />
+                  about it, you travel across her face, and She is the
+                </p>
+                <a href="">Fanny Spencer</a>
+                <div>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-    </div>
-      
-    <div class="room   col-lg-3 col-md-6 col-sm-10    ">
-      <div class="   text-center">
-        <div class=" imge-room ">
-          <img src="./image/xroom2.jpg.pagespeed.ic.s5wFtfgyhX.webp" alt="room 1"> 
-          <a class="btn btn-warning hvr-sweep-to-right" href="">Book Now</a>
-          <!-- <a href="">Book Now</a> -->
-        </div>
-        <div class="room-content">
-          <a href="">Single Deluxe Room</a>
-          <h5>$200</h5>
-        </div>
-      </div>
-  </div>
-  
-  <div class="room    col-lg-3 col-md-6 col-sm-10    ">
-    <div class="   text-center">
-      <div class=" imge-room ">
-        <img src="./image/xroom3.jpg.pagespeed.ic.cPDZhB0jct.webp" alt="room 1"> 
-        <a class="btn btn-warning hvr-sweep-to-right" href="">Book Now</a>
-      </div>
-      <div class="room-content">
-        <a href="">Honeymoon Suit</a>
-        <h5>$750</h5>
-      </div>
-    </div>
-</div>
-<div class="room    col-lg-3 col-md-6 col-sm-10   ">
-  <div class="   text-center">
-    <div class=" imge-room ">
-      <img src="./image/xroom4.jpg.pagespeed.ic.R_29Q0N7Vt (1).webp" alt="room 1"> 
-      <a class="btn btn-warning hvr-sweep-to-right" href="">Book Now</a>
-    </div>
-    <div class="room-content">
-      <a href="">Economy Double</a>
-      <h5>$200</h5>
-    </div>
-  </div>
-</div>
-    
-    </div>
-      
-     
-      
-    </div>
-    </section>
 
-    <section class="facilitie pt-3 ">
-      <div class="title text-center mt-5 text-light">
-        <h1 class="text-light">Royal Facilities</h1>
-        <p>Who are in extremely love with eco friendly system.</p>
-      </div>
-    <div class="mt-5  ">
-      <div class=" row  container m-auto ">
-        
-        <div class=" col-lg-4 col-md-6 col-sm-10  ">
-        <div class="facilitie-div mt-5  text-light p-3 ">
-          <div class="d-flex "> 
-            <i class=" text-warning m-3 ms-4 icon-size fa-solid fa-utensils"></i>
-             <h3 class="m-3 text-light">Restaurant</h3>
+        <div class="swiper-slide col-lg-5 col-sm-12">
+          <div class="bg-light container ms-2 p-4">
+            <div class="testimonial-div d-flex">
+              <img class="rounded-circle" src="./image/girl1.webp" alt="women" />
+              <div>
+                <p>
+                  As conscious traveling Paupers we must always be <br />
+                  concerned about our dear Mother Earth. If you think <br />
+                  about it, you travel across her face, and She is the
+                </p>
+                <a href="">Fanny Spencer</a>
+                <div>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
           </div>
-          <p class="ms-4 me-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
         </div>
-      </div>
 
-      <div class=" col-lg-4 col-md-6 col-sm-10 ">
-        <div class="facilitie-div mt-5  text-light p-3 ">
-          <div class="d-flex "> 
-            <i class="text-warning m-3 ms-4 icon-size fa-solid fa-person-biking"></i>
-             <h3 class="m-3 text-light">Sports CLub</h3>
+        <div class="swiper-slide col-lg-5 col-sm-12">
+          <div class="bg-light container ms-2 p-4">
+            <div class="testimonial-div d-flex">
+              <img class="rounded-circle" src="./image/girl1.webp" alt="women" />
+              <div>
+                <p>
+                  As conscious traveling Paupers we must always be <br />
+                  concerned about our dear Mother Earth. If you think <br />
+                  about it, you travel across her face, and She is the
+                </p>
+                <a href="">Fanny Spencer</a>
+                <div>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
           </div>
-          <p class="ms-4 me-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
         </div>
-      </div>
-      <div class=" col-lg-4 col-md-6 col-sm-10  ">
-        <div class="facilitie-div mt-5  text-light  p-3">
-          <div class="d-flex "> 
-            <i class=" text-warning m-3 ms-4 icon-size fa-solid fa-shirt"></i>
-             <h3 class="m-3 text-light">Swimming Pool</h3>
-          </div>
-          <p class="ms-4 me-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
-        </div>
-      </div>
-      <div class=" col-lg-4 col-md-6 col-sm-10 ">
-        <div class="facilitie-div mt-5  text-light p-3 ">
-          <div class="d-flex "> 
-            <i class=" text-warning m-3 ms-4 icon-size fa-solid fa-car"></i>
-             <h3 class="m-3 text-light">Rent a Car</h3>
-          </div>
-          <p class="ms-4 me-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
-        </div>
-      </div>
-      <div class=" col-lg-4 col-md-6 col-sm-10 ">
-        <div class="facilitie-div mt-5  text-light p-3 ">
-          <div class="d-flex "> 
-            <i class=" text-warning m-3 ms-4 icon-size fa-solid fa-toilets-portable"></i>
-             <h3 class="m-3 text-light">Gymnesium</h3>
-          </div>
-          <p class="ms-4 me-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
-        </div>
-      </div>
-      <div class=" col-lg-4 col-md-6 col-sm-10 ">
-        <div class="facilitie-div mt-5  text-light p-3 ">
-          <div class="d-flex "> 
-            <i class="text-warning m-3 ms-4 icon-size  fa-solid fa-martini-glass-citrus"></i>
-             <h3 class="m-3 text-light">Bar</h3>
-          </div>
-          <p class="ms-4 me-2">Usage of the Internet is becoming more common due to rapid advancement of technology and power.   </p>
-        </div>
-      </div>
-      
 
+        <div class="swiper-slide col-lg-5 col-sm-12">
+          <div class="bg-light container ms-2 p-4">
+            <div class="testimonial-div d-flex">
+              <img class="rounded-circle" src="./image/girl1.webp" alt="women" />
+              <div>
+                <p>
+                  As conscious traveling Paupers we must always be <br />
+                  concerned about our dear Mother Earth. If you think <br />
+                  about it, you travel across her face, and She is the
+                </p>
+                <a href="">Fanny Spencer</a>
+                <div>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide col-lg-5 col-sm-12">
+          <div class="bg-light container ms-2 p-4">
+            <div class="testimonial-div d-flex">
+              <img class="rounded-circle" src="./image/girl1.webp" alt="women" />
+              <div>
+                <p>
+                  As conscious traveling Paupers we must always be <br />
+                  concerned about our dear Mother Earth. If you think <br />
+                  about it, you travel across her face, and She is the
+                </p>
+                <a href="">Fanny Spencer</a>
+                <div>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide col-lg-5 col-sm-12">
+          <div class="bg-light container ms-2 p-4">
+            <div class="testimonial-div d-flex">
+              <img class="rounded-circle" src="./image/girl1.webp" alt="women" />
+              <div>
+                <p>
+                  As conscious traveling Paupers we must always be <br />
+                  concerned about our dear Mother Earth. If you think <br />
+                  about it, you travel across her face, and She is the
+                </p>
+                <a href="">Fanny Spencer</a>
+                <div>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide col-lg-5 col-sm-12">
+          <div class="bg-light container ms-2 p-4">
+            <div class="testimonial-div d-flex">
+              <img class="rounded-circle" src="./image/girl1.webp" alt="women" />
+              <div>
+                <p>
+                  As conscious traveling Paupers we must always be <br />
+                  concerned about our dear Mother Earth. If you think <br />
+                  about it, you travel across her face, and She is the
+                </p>
+                <a href="">Fanny Spencer</a>
+                <div>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="bg-light container ms-2 p-4">
+            <div class="testimonial-div d-flex">
+              <img class="rounded-circle" src="./image/girl1.webp" alt="women" />
+              <div>
+                <p>
+                  As conscious traveling Paupers we must always be <br />
+                  concerned about our dear Mother Earth. If you think <br />
+                  about it, you travel across her face, and She is the
+                </p>
+                <a href="">Fanny Spencer</a>
+                <div>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star"></i>
+                  <i class="text-warning fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-   </div>
-    </section>
-    <script src="https://kit.fontawesome.com/4ddaf2bf19.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  </body>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="latest-section">
+    <div class="title text-center m-auto">
+      <h1>Hotel Accomodation</h1>
+      <p>
+        We all live in an age that belongs to the young at heart. Life that is
+        becoming extremely fast,
+      </p>
+    </div>
+
+    <div class="card-group container mt-5">
+      <div class="card ms-4 content-latest">
+        <div class="overflow-hidden">
+          <img class="card-img-top img-fluid" src="./image/xblog-1.jpg.pagespeed.ic.vAOyaWJAkP.webp"
+            alt="Card image cap" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">
+            <a class="der hvr-sweep-to-right" href="">Traverl</a>
+            <a class="der hvr-sweep-to-right" href="">life style</a>
+          </h5>
+          <a class="sub-title">Low Cost Advertising</a>
+          <p class="card-foter mt-3">
+            Acres of Diamonds… you’ve read the famous story, or at least had
+            it related to you. A farmer.
+          </p>
+          <p class="mt-4">31st January,2018</p>
+        </div>
+      </div>
+      <div class="card ms-4 content-latest">
+        <div class="overflow-hidden">
+          <img class="card-img-top img-fluid" src="./image/xblog-2.jpg.pagespeed.ic.OxhK2bqdOC.webp"
+            alt="Card image cap" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">
+            <a class="der hvr-sweep-to-right" href="">Traverl</a>
+            <a class="der hvr-sweep-to-right" href="">life style</a>
+          </h5>
+          <a class="sub-title">Creative Outdoor Ads</a>
+          <p class="card-foter mt-3">
+            Self-doubt and fear interfere with our ability to achieve or set
+            goals. Self-doubt and fear are
+          </p>
+          <p class="mt-4">31st January,2018</p>
+        </div>
+      </div>
+      <div class="card ms-4 content-latest">
+        <div class="overflow-hidden">
+          <img class="card-img-top" src="./image/xblog-3.jpg.pagespeed.ic.wVby2onetC.webp" alt="Card image cap" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">
+            <a class="der hvr-sweep-to-right" href="">Traverl</a>
+            <a class="der hvr-sweep-to-right" href="">life style</a>
+          </h5>
+          <a class="sub-title">It S Classified How To Utilize Free</a>
+          <p class="card-foter mt-3">
+            Why do you want to motivate yourself? Actually, just answering
+            that question fully can
+          </p>
+          <p class="mt-4">31st January,2018</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="flex-shrink-0 py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; Anas Thaher</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const storeScroll = () => {
+      let potionScr = (document.documentElement.dataset.scroll =
+        window.scrollY);
+      return potionScr;
+    };
+    document.addEventListener("scroll", () => {
+      if (storeScroll() > 150) {
+        document.getElementById("navb").classList.add("bg-light");
+      } else {
+        document.getElementById("navb").classList.remove("bg-light");
+      }
+    });
+    storeScroll();
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        400: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+      },
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/4ddaf2bf19.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
