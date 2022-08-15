@@ -1,5 +1,5 @@
 # Royal-Hotel
-link the project 
+ the project link
  https://anasthaher.github.io/Royal-Hotel/
 ![image](https://user-images.githubusercontent.com/87125946/184661482-d56914f0-ed24-49d5-8ed0-7c676e59bc12.png)
 ![image](https://user-images.githubusercontent.com/87125946/184661659-d9970d9e-149a-4800-8675-4f65ffdd37f1.png)
